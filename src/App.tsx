@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { ProductList } from './ProductList';
+import { ProductList } from './components/ProductList';
 
 function App() {
   const [category, setCategory] = useState('');
